@@ -13,5 +13,5 @@ if min_max_list:
     max_value = max(min_max_list)
     print(f"The lowest number you entered was {min_value}, and the highest "
       f"was {max_value}.")
-
-print("You didnt enter any numbers.")
+else:
+    print("You didnt enter any numbers.")
