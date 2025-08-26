@@ -3,7 +3,7 @@ while True:
 A. Male 
 B. Female
 Enter selection: """)
-    if sex == "A".casefold() or sex == "MALE".casefold():
+    if sex == "A".casefold() or sex == "MALE".casefold() or sex == "M".casefold():
         hg_lvl = float(input("Please enter your hemoglobin level: "))
         if  134 <= hg_lvl <= 167:
             print("Your hemoglobin levels are within normal range")
@@ -14,7 +14,7 @@ Enter selection: """)
         else:
             print("Your hemoglobin levels are too low")
             break
-    elif sex == "B".casefold() or sex == "FEMALE".casefold():
+    elif sex == "B".casefold() or sex == "FEMALE".casefold() or sex == "F".casefold():
         hg_lvl = float(input("Please enter your hemoglobin level: "))
         if  117 <= hg_lvl <= 155:
             print("Your hemoglobin levels are within normal range")
