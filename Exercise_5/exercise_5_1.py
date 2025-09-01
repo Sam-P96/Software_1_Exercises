@@ -1,6 +1,6 @@
 import random
 
-no_rolls = int(input("Enter number of dice to roll: "))
+no_rolls = int(input("Enter the number of dice to roll: "))
 total = 0
 
 for rolls in range(no_rolls):

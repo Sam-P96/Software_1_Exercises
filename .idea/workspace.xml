@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547a7e20-2310-4734-83fc-15b8c1d3389b" name="Changes" comment="Completed exercise 5.1, but 4.6 is not completed yet still. Damn math.">
+    <list default="true" id="547a7e20-2310-4734-83fc-15b8c1d3389b" name="Changes" comment="4.6 Finally completed. Used random.random instead of random.randint. Made it more readable.">
+      <change afterPath="$PROJECT_DIR$/Exercise_5/exercise_5_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_4/exercise_4_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_4/exercise_4_6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,62 +43,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.exercise_2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_3_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_3_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_5_1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samna/Desktop/Desktop Files/2025 Autumn School/Software 1/Software_1_Exercises&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.exercise_2_1.executor": "Run",
+    "Python.exercise_2_2.executor": "Run",
+    "Python.exercise_2_3.executor": "Run",
+    "Python.exercise_2_4.executor": "Run",
+    "Python.exercise_2_5.executor": "Run",
+    "Python.exercise_2_6.executor": "Run",
+    "Python.exercise_3_1.executor": "Run",
+    "Python.exercise_3_2.executor": "Run",
+    "Python.exercise_3_3.executor": "Run",
+    "Python.exercise_3_4.executor": "Run",
+    "Python.exercise_4_1.executor": "Run",
+    "Python.exercise_4_2.executor": "Run",
+    "Python.exercise_4_3.executor": "Run",
+    "Python.exercise_4_4.executor": "Run",
+    "Python.exercise_4_5.executor": "Run",
+    "Python.exercise_4_6.executor": "Run",
+    "Python.exercise_5_1.executor": "Run",
+    "Python.exercise_5_2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Samna/Desktop/Desktop Files/2025 Autumn School/Software 1/Software_1_Exercises",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.exercise_4_6">
-    <configuration name="exercise_4_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Software_1_Exercises" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise_4/exercise_4_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.exercise_5_2">
     <configuration name="exercise_4_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Software_1_Exercises" />
       <option name="ENV_FILES" value="" />
@@ -191,13 +169,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exercise_5_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Software_1_Exercises" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise_5/exercise_5_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise_4_6" />
+        <item itemvalue="Python.exercise_5_2" />
         <item itemvalue="Python.exercise_5_1" />
+        <item itemvalue="Python.exercise_4_6" />
         <item itemvalue="Python.exercise_4_5" />
         <item itemvalue="Python.exercise_4_4" />
-        <item itemvalue="Python.exercise_4_3" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +234,7 @@
       <workItem from="1756727582682" duration="383000" />
       <workItem from="1756728070335" duration="74000" />
       <workItem from="1756728290682" duration="1160000" />
-      <workItem from="1756732998681" duration="1352000" />
+      <workItem from="1756732998681" duration="2860000" />
     </task>
     <task id="LOCAL-00001" summary="Done exercise 2.1 to 2.6">
       <option name="closed" value="true" />
@@ -323,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756379434047</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="4.6 Finally completed. Used random.random instead of random.randint.">
+      <option name="closed" value="true" />
+      <created>1756734592473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756734592473</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4.6 Finally completed. Used random.random instead of random.randint. Made it more readable.">
+      <option name="closed" value="true" />
+      <created>1756735148239</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756735148239</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +357,9 @@
     <MESSAGE value="exercise_4_4 completed." />
     <MESSAGE value="exercise_4_5 completed." />
     <MESSAGE value="Completed exercise 5.1, but 4.6 is not completed yet still. Damn math." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed exercise 5.1, but 4.6 is not completed yet still. Damn math." />
+    <MESSAGE value="4.6 Finally completed. Used random.random instead of random.randint." />
+    <MESSAGE value="4.6 Finally completed. Used random.random instead of random.randint. Made it more readable." />
+    <option name="LAST_COMMIT_MESSAGE" value="4.6 Finally completed. Used random.random instead of random.randint. Made it more readable." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_2_5.coverage" NAME="exercise_2_5 Coverage Results" MODIFIED="1756135112794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_2" />
@@ -351,14 +370,15 @@
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_2.coverage" NAME="exercise_4_2 Coverage Results" MODIFIED="1756214493282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_2_6.coverage" NAME="exercise_2_6 Coverage Results" MODIFIED="1756136542648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_2" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_5.coverage" NAME="exercise_4_5 Coverage Results" MODIFIED="1756279955972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
-    <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_6.coverage" NAME="exercise_4_6 Coverage Results" MODIFIED="1756734346415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
-    <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_5_1.coverage" NAME="exercise_5_1 Coverage Results" MODIFIED="1756379388692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_5" />
+    <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_6.coverage" NAME="exercise_4_6 Coverage Results" MODIFIED="1756735109512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
+    <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_5_1.coverage" NAME="exercise_5_1 Coverage Results" MODIFIED="1756735342151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_5" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_3.coverage" NAME="exercise_4_3 Coverage Results" MODIFIED="1756216298676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_2_3.coverage" NAME="exercise_2_3 Coverage Results" MODIFIED="1756133559176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_2" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_2_1.coverage" NAME="exercise_2_1 Coverage Results" MODIFIED="1756116432690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_2" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_3_1.coverage" NAME="exercise_3_1 Coverage Results" MODIFIED="1756194903165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_3" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_2_4.coverage" NAME="exercise_2_4 Coverage Results" MODIFIED="1756133609345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_2" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_4_4.coverage" NAME="exercise_4_4 Coverage Results" MODIFIED="1756278669400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_4" />
+    <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_5_2.coverage" NAME="exercise_5_2 Coverage Results" MODIFIED="1756735831847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_5" />
     <SUITE FILE_PATH="coverage/Software_1_Exercises$exercise_3_2.coverage" NAME="exercise_3_2 Coverage Results" MODIFIED="1756211694389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise_3" />
   </component>
 </project>
