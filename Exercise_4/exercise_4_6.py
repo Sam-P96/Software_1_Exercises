@@ -1,8 +1,11 @@
 import random
 import math
 
+print("""This program can approximate the value of pi using random 
+points on a graph. Enter a high number for more accurate results.
+Something like a million or so!""")
 n = 0 #number of times point lands in circle
-N = 1000000 #number of tries
+N = int(input("Enter number of points to generate: "))
 
 for i in range(N):
     x = random.random()
@@ -12,6 +15,7 @@ for i in range(N):
 
 expected = math.pi
 print(f"The expected value is {expected:.4f}")
-print(f"Number of points inside the circle is {n}.")
+print(f"Number of points inside the circle was {n}, while {N - n} "
+      f"landed outside.")
 pi_a = (4 * n) / N
 print(f"Approximation of Pi is {pi_a:.4f}")
