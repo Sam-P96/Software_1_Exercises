@@ -18,8 +18,7 @@ while True:
             print("Please keep in mind ICAO codes are case sensitive.")
             print("="*80)
     elif select == "2":
-        print("""You have chosen to enter a new airport.
-You can cancel by entering \"0\".""")
+        print("""You have chosen to enter a new airport. You can cancel by entering \"0\".""")
         name_2 = input("Please enter the name of the new airport: ")
         if name_2 == "0":
             print("=" * 80)
